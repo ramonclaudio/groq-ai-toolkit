@@ -10,7 +10,7 @@ def main():
     ------------------------------------------------------------------
                              Groq AI Toolkit                           
                    API Wrapper & Command-line Interface               
-                          [v1.0.1] by @rmncldyo                      
+                          [v1.0.1] by @ramonclaudio                      
     ------------------------------------------------------------------
 
     An API wrapper & CLI for Groq AI's breakthrough LPU Inference Engine, allowing seamless interactions with the latest LLMs.
@@ -32,7 +32,7 @@ def main():
     | -ss, --stop            | Stop sequences for completion        | --stop ", 6"                                           |
     """,
         formatter_class=CustomFormatter,
-        epilog="For detailed usage information, visit our ReadMe here: github.com/RMNCLDYO/groq-ai-toolkit"
+        epilog="For detailed usage information, visit our ReadMe here: github.com/ramonclaudio/groq-ai-toolkit"
     )
     parser.add_argument('-c', '--chat', action='store_true', help='Enable chat mode')
     parser.add_argument('-t', '--text', action='store_true', help='Enable text mode')
